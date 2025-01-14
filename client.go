@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	utils "github.com/cohesion-org/deepseek-go/utils"
+	utils "github.com/EthanHosier/deepseek-go-fixed-function-calling/utils"
 )
 
 type Client struct {

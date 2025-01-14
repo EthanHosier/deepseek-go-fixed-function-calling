@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	deepseek "github.com/cohesion-org/deepseek-go"
+	deepseek "github.com/EthanHosier/deepseek-go-fixed-function-calling"
 )
 
 func Chat() {
