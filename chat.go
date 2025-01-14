@@ -25,6 +25,7 @@ type StreamOptions struct {
 }
 
 type Parameters struct {
+	Type       string                 `json:"type"` // Type of the parameters, e.g., "object" (required)
 	Properties map[string]interface{} `json:"properties,omitempty"`
 	Required   []string               `json:"required,omitempty"`
 }
